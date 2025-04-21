@@ -55,8 +55,6 @@ def calcular_rendimento(valor_inicial, dias):
         "valor_liquido": round(valor_liquido_total, 2)
     }
 
-
-# Entrada com validação simples
 try:
     valor = float(input("Digite o valor a ser investido: R$ "))
     dias = int(input("Digite o tempo do investimento (em dias): "))
